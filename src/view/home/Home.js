@@ -1098,6 +1098,17 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            <div className="store">
+                <div className="row store-box">
+                    <div className="col-sm-4 store-item">
+                        <h1 className="store-item-title">Global Palate Store</h1>
+                        <p className="store-item-content">Take a closer look at our establishment with a gallery of photographs that capture the spirit of Global Palate.</p>
+                        <p className="store-item-content">The refined atmosphere and delicious food will impress even the most sophisticated visitor.</p>
+                        <button className="store-item-btn"> Our menu</button>
+                    </div>
+                    <div className="col-sm-4 store-item"></div>
+                </div>
+            </div>
 
         </div >
     );
