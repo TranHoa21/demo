@@ -1038,8 +1038,10 @@ const Home = () => {
                 </div>
             </div>
             <div className="discover">
+                <div className="discover-box">
                 <h1 className="discover-title">Discover</h1>
                 <p className="discover-content">Discover new facets of taste together with our talented chefs who are ready to delight you with new delicious dishes and drinks every day.</p>
+            </div>
             </div>
             <div className="client-review">
                 <h1 className="client-review-title"> What peoples say about us</h1>
@@ -1100,13 +1102,25 @@ const Home = () => {
             </div>
             <div className="store">
                 <div className="row store-box">
-                    <div className="col-sm-4 store-item">
+                    <div className="col-sm-3 store-item">
                         <h1 className="store-item-title">Global Palate Store</h1>
                         <p className="store-item-content">Take a closer look at our establishment with a gallery of photographs that capture the spirit of Global Palate.</p>
                         <p className="store-item-content">The refined atmosphere and delicious food will impress even the most sophisticated visitor.</p>
                         <button className="store-item-btn"> Our menu</button>
                     </div>
-                    <div className="col-sm-4 store-item"></div>
+                    <div className="col-sm-3 store-item2">
+                        <div className="store-item2-box">
+                        <img className="store-item2-image" src="https://res.cloudinary.com/dhjrrk4pg/image/upload/v1717136565/flat-lay-italian-food-composition-with-clipboard-template_1_1_ipmqar.jpg"/>
+                        <img className="store-item2-image2" src="https://res.cloudinary.com/dhjrrk4pg/image/upload/v1717137643/Remove-bg.ai_1717137441284_drll9l.png"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="home-contact-us">
+                <div className="row contact-us">
+                    <div className="col-sm-5 contact-us-item">
+                        
+                    </div>
                 </div>
             </div>
 
