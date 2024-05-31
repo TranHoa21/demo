@@ -232,13 +232,19 @@
             margin:0;
             display:flex;
         }
+        @media (min-width: 1400px) {
+            .col-sm-7.ingredients-item{
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
     }
     .discover{
         background-image:linear-gradient(rgba(0, 0, 0, 0.479),rgba(0, 0, 0, 0.479)), url("https://res.cloudinary.com/dhjrrk4pg/image/upload/v1716683976/top-view-table-full-delicious-food-composition_1_m3vv8o.jpg");
         width:100%;
         height:500px;
         .discover-title{
-            padding-top: 14%;
+            padding-top: 10%;
             text-align: center;
             color:rgb(255, 230, 0);
             font-weight: bold;
@@ -302,5 +308,28 @@
             }
         }
     }
-
+    .store{
+        padding: 5% 0 ;
+        .row.store-box{
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            color:rgb(255, 230, 0);
+            .col-sm-4.store-item{
+                margin: 5px;
+                padding: 10px;
+                .store-item-title{
+                    padding: 10px 0;
+                }
+                .store-item-btn{
+                    margin-top: 30px;
+                    padding: 10px 30px;
+                    background-color: rgb(112, 112, 112);
+                    border: 1px solid black;
+                    color:rgb(255, 230, 0);
+                   // border-radius: 20px;
+                }
+            }
+        }
+    }
 }
