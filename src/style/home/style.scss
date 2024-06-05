@@ -1,4 +1,3 @@
-
 .all-home{
     background-color: rgb(19, 5, 1);
     .silde-projects{
@@ -321,7 +320,7 @@
             display: flex;
             justify-content: center;
             color:rgb(255, 230, 0);
-            .col-sm-3.store-item{
+            .col-sm-4.store-item{
                 margin: 5px 50px 5px 0px;
                 padding: 10px;
                 .store-item-title{
@@ -336,7 +335,7 @@
                    // border-radius: 20px;
                 }
             }
-            .col-sm-3.store-item2{
+            .col-sm-4.store-item2{
                 height:500px;
                 .store-item2-box{
                     border: 1px solid rgb(255, 230, 0) ;
@@ -361,6 +360,119 @@
                     }
                 }
                 
+            }
+        }
+    }
+    .home-contact-us{
+        .row.contact-us{
+            margin: 0;
+            color:rgb(255, 230, 0);
+            display:flex;
+            justify-content: center;
+            height:500px;
+            .col-sm-4.contact-us-item{
+                padding:30px;
+                .item-name{
+                    padding: 10px 0;
+                    .item-name-title{
+                        font-weight: bold;
+                    }
+                    .item-name-content{
+                      margin:5px 0;
+                      background-color: rgb(19, 5, 1) ;
+                      border: 1px solid rgb(189, 189, 189);
+                      padding: 5px;
+                      border-radius: 5px;
+                      width:100%
+                    }
+                }
+                .item-phone-number{
+                    padding-top: 20px;
+                    .item-phone-number-title{
+                        font-weight: bold;
+                    }
+                    .item-phone-number-content{
+                        background-color: rgb(19, 5, 1) ;
+                        border: 1px solid rgb(189, 189, 189);
+                        padding: 5px;
+                        border-radius: 5px;
+                        width:100%;
+                        margin:5px 0;
+
+                    }
+                }
+                .item-message{
+                    padding-top: 20px;
+                    .item-message-title{
+                        font-weight: bold;
+                    }
+                    .mess-sub{
+                        display:flex;
+                        border: 1px solid rgb(189, 189, 189);
+                        border-radius: 5px;
+                        position:relative;
+                        height:105px;
+                        .item-message-content{
+                            background-color: rgb(19, 5, 1) ;
+                            border-radius: 5px;
+                            width:100%;
+                            height:100px;
+                            border:none;
+                            position:absolute;
+                        }
+                        .submit{
+                            background-color: rgba(240, 248, 255, 0);
+                            border: none;
+                            position:absolute;
+                            bottom:0;
+                            right:0;
+                            padding:5px;
+                            margin:0;
+                            .img-send{
+                                width:30px;
+                                height:30px;
+                            }
+                        }
+                    }
+                    
+                   
+                }
+                .access{
+                    display:flex;
+                    align-items: center;
+                    .access-content{
+                        margin:0;
+                        padding-left: 10px;
+                        padding-top: 5px;
+                        color: white;
+                    }
+                }
+                
+            }
+            .col-sm-4.contact-us-item-box2{
+                margin-left: 5%;
+                .box2-title{
+                    color: white;
+                    padding:50px 0 0 0; 
+                }
+                .box2-title-data{
+                    padding-top: 60px;
+                }
+                .box2-contact-us{
+                    padding-top: 30px;
+                    .box2-phone-content{
+                        color: white;
+                    }
+                    .box2-email-content{
+                        color:white;
+                    }
+                }
+                .schedule{
+                    padding: 10px 0;
+                    .schedule-data{
+                        color:white;
+                    }
+                }
             }
         }
     }
