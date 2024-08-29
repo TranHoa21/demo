@@ -30,27 +30,28 @@ const Home = () => {
         setIsShowJapanFood(false);
         setIsShowChinaFood(false)
     };
-    const handlKoreaFood = () => {
+    const handleKoreaFood = () => {
         setIsShowVietNamFood(false);
         setIsShowEuropeFood(false);
         setIsShowKoreaFood(true);
         setIsShowJapanFood(false);
         setIsShowChinaFood(false)
     };
-    const handlJapanFood = () => {
+    const handleJapanFood = () => {
         setIsShowVietNamFood(false);
         setIsShowEuropeFood(false);
         setIsShowKoreaFood(false);
         setIsShowJapanFood(true);
         setIsShowChinaFood(false)
     };
-    const handlChinaFood = () => {
+    const handleChinaFood = () => {
         setIsShowVietNamFood(false);
         setIsShowEuropeFood(false);
         setIsShowKoreaFood(false);
         setIsShowJapanFood(false);
         setIsShowChinaFood(true)
     };
+
     return (
         <div div className="all-home">
             <div className="silde-projects">
@@ -188,11 +189,11 @@ const Home = () => {
                 <h1 className="home-product-title">You may like one of our dishes:</h1>
                 <div className="list-product">
                     <div className="list-product-title">
-                        <button onClick={handleEuropeFood} className="list-product-btn">Europe Food</button>
-                        <button onClick={handleVietNamFood} className="list-product-btn">VietNam Food</button>
-                        <button onClick={handlKoreaFood} className="list-product-btn">Korea Food</button>
-                        <button onClick={handlJapanFood} className="list-product-btn">Japan Food</button>
-                        <button onClick={handlChinaFood} className="list-product-btn">China Food</button>
+                        <button onClick={handleEuropeFood} className={`list-product-btn ${isShowEuropeFood ? 'europe-food' : ''}`}>Europe Food</button>
+                        <button onClick={handleVietNamFood} className={`list-product-btn ${isShowVietNamFood ? 'vietnam-food' : ''}`}>VietNam Food</button>
+                        <button onClick={handleKoreaFood} className={`list-product-btn ${isShowKoreaFood ? 'korea-food' : ''}`}>Korea Food</button>
+                        <button onClick={handleJapanFood} className={`list-product-btn ${isShowJapanFood ? 'japan-food' : ''}`}>Japan Food</button>
+                        <button onClick={handleChinaFood} className={`list-product-btn ${isShowChinaFood ? 'china-food' : ''}`}>China Food</button>
                     </div>
                     {isShowEuropeFood && (
                         <Swiper
@@ -1038,8 +1039,10 @@ const Home = () => {
                 </div>
             </div>
             <div className="discover">
-                <h1 className="discover-title">Discover</h1>
-                <p className="discover-content">Discover new facets of taste together with our talented chefs who are ready to delight you with new delicious dishes and drinks every day.</p>
+                <div className="discover-box">
+                    <h1 className="discover-title">Discover</h1>
+                    <p className="discover-content">Discover new facets of taste together with our talented chefs who are ready to delight you with new delicious dishes and drinks every day.</p>
+                </div>
             </div>
             <div className="client-review">
                 <h1 className="client-review-title"> What peoples say about us</h1>
@@ -1094,6 +1097,73 @@ const Home = () => {
                         <div className="client-review-data-item-end">
                             <p className="rcm"> Recommend!</p>
                             <img className="client-review-data-img" src="https://res.cloudinary.com/dhjrrk4pg/image/upload/v1716688463/Remove-bg.ai_1716688403247_t4l8pd.png" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="store">
+                <div className="row store-box">
+                    <div className="col-sm-4 store-item">
+                        <h1 className="store-item-title">Global Palate Store</h1>
+                        <p className="store-item-content">Take a closer look at our establishment with a gallery of photographs that capture the spirit of Global Palate.</p>
+                        <p className="store-item-content">The refined atmosphere and delicious food will impress even the most sophisticated visitor.</p>
+                        <button className="store-item-btn"> Our menu</button>
+                    </div>
+                    <div className="col-sm-4 store-item2">
+                        <div className="store-item2-box">
+                            <img className="store-item2-image" src="https://res.cloudinary.com/dhjrrk4pg/image/upload/v1717136565/flat-lay-italian-food-composition-with-clipboard-template_1_1_ipmqar.jpg" />
+                            <img className="store-item2-image2" src="https://res.cloudinary.com/dhjrrk4pg/image/upload/v1717137643/Remove-bg.ai_1717137441284_drll9l.png" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="home-contact-us">
+                <div className="row contact-us">
+                    <div className="col-sm-4 contact-us-item">
+                        <div className="item-name">
+                            <h6 className="item-name-title">
+                                Enter your name:
+                            </h6>
+                            <input type="text" className="item-name-content" />
+                        </div>
+                        <div className="item-phone-number">
+                            <h6 className="item-phone-number-title">
+                                Your phone number:
+                            </h6>
+                            <input className="item-phone-number-content" type="text" />
+                        </div>
+                        <div className="item-message">
+                            <h6 className="item-message-title">
+                                Enter message:
+                            </h6>
+                            <div className="mess-sub">
+                                <textarea type="text" className="item-message-content" />
+                                <button className="submit">
+                                    <img src="https://res.cloudinary.com/dhjrrk4pg/image/upload/v1717214534/send_1632748_wdwtnd.png" className="img-send" />
+                                </button>
+                            </div>
+                        </div>
+                        <div className="access">
+                            <input type="checkbox" value="Boat" />
+                            <p className="access-content">I consent to the processing of my personal data according to the rules.</p>
+                        </div>
+                    </div>
+                    <div className="col-sm-4 contact-us-item-box2">
+                        <h1 className="box2-title">Contact to us:</h1>
+                        <h6 className="box2-title-data">Contact us un a convenient way:</h6>
+                        <div className="box2-contact-us">
+                            <h6 className="box2-phone">Phone:</h6>
+                            <p className="box2-phone-content">(+84)349772625</p>
+                            <h6 className="box2-email">Email:</h6>
+                            <p className="box2-email-content">globalpalate@gmail.com</p>
+                        </div>
+                        <div className="schedule">
+                            <h6 className="schedule-title">
+                                Schedule:
+                            </h6>
+                            <p className="schedule-data">
+                                9:00-20:00
+                            </p>
                         </div>
                     </div>
                 </div>

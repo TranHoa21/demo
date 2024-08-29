@@ -1,0 +1,474 @@
+.all-home {
+  background-color: rgb(19, 5, 1);
+}
+.all-home .silde-projects .slider .slider-item .silder-image {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+  position: relative;
+}
+.all-home .silde-projects .slider .slider-item .premium-steak {
+  position: absolute;
+  font-size: 200%;
+  top: 30%;
+  left: 25%;
+  color: rgb(255, 230, 0);
+  font-weight: bolder;
+  background-color: rgba(65, 65, 65, 0.664);
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.all-home .silde-projects .slider .slider-item .box-address {
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  color: rgb(255, 230, 0);
+  background-color: rgba(65, 65, 65, 0.664);
+  padding: 10px;
+  border-radius: 10px;
+}
+.all-home .silde-projects .slider .slider-item .box-address .address-open-close {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+.all-home .silde-projects .slider .slider-item .box-address .address-open-close .address-icon {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+}
+.all-home .silde-projects .slider .slider-item .box-address .address-open-close .open-close {
+  margin: 0;
+}
+.all-home .silde-projects .slider .slider-item .address-open-close-2 {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+.all-home .silde-projects .slider .slider-item .address-open-close-2 .address-icon {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+}
+.all-home .silde-projects .slider .slider-item .address-open-close-2 .open-close2 {
+  margin: 0;
+}
+.all-home .row.home-about {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  padding: 15% 0 10% 0;
+}
+.all-home .row.home-about .col-sm-4.home-about-box {
+  padding: 0px;
+}
+.all-home .row.home-about .col-sm-4.home-about-box .image-home-about {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.all-home .row.home-about .col-sm-5.home-about-box2 {
+  background-color: rgb(54, 54, 54);
+  padding: 60px 30px;
+  color: rgb(255, 230, 0);
+}
+.all-home .row.home-about .col-sm-5.home-about-box2 .home-about-title {
+  padding: 30px 0;
+}
+.all-home .choose-us {
+  padding-bottom: 5%;
+}
+.all-home .choose-us .choose-us-title {
+  text-align: center;
+  color: rgb(255, 230, 0);
+  padding: 30px 0 0 0;
+  font-weight: bolder;
+}
+.all-home .choose-us .choose-us-note {
+  text-align: center;
+  color: rgb(255, 230, 0);
+  padding-bottom: 25px;
+}
+.all-home .choose-us .row.choose-us-box {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5%;
+}
+.all-home .choose-us .row.choose-us-box .col-sm-2.choose-us-box-item {
+  margin: 0 10px;
+}
+.all-home .choose-us .row.choose-us-box .col-sm-2.choose-us-box-item .choose-us-box-item-icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  margin: 20px 0;
+}
+.all-home .choose-us .row.choose-us-box .col-sm-2.choose-us-box-item .choose-us-box-item-icon-wrapper .choose-us-box-item-icon {
+  width: 60px;
+  height: 60px;
+}
+.all-home .choose-us .row.choose-us-box .col-sm-2.choose-us-box-item .choose-us-box-item-title {
+  text-align: center;
+  color: rgb(255, 230, 0);
+}
+.all-home .choose-us .row.choose-us-box .col-sm-2.choose-us-box-item .choose-us-box-item-content {
+  text-align: center;
+  color: rgb(255, 230, 0);
+  font-size: 80%;
+}
+.all-home .home-product {
+  padding-top: 8%;
+}
+.all-home .home-product .home-product-title {
+  text-align: center;
+  color: rgb(255, 230, 0);
+  font-weight: bolder;
+}
+.all-home .home-product .list-product .list-product-title {
+  padding: 5% 0 0 5%;
+}
+.all-home .home-product .list-product .list-product-title .list-product-btn {
+  border: none;
+  background-color: rgb(19, 5, 1);
+  color: rgb(255, 230, 0);
+  margin: 0 10px;
+  padding: 10px;
+}
+.all-home .home-product .list-product .list-product-title .europe-food {
+  border-bottom: 1px solid rgb(255, 230, 0);
+  transition: background-color 0.3s ease;
+}
+.all-home .home-product .list-product .list-product-title .vietnam-food {
+  border-bottom: 1px solid rgb(255, 230, 0);
+  transition: background-color 0.3s ease;
+}
+.all-home .home-product .list-product .list-product-title .korea-food {
+  border-bottom: 1px solid rgb(255, 230, 0);
+  transition: background-color 0.3s ease;
+}
+.all-home .home-product .list-product .list-product-title .japan-food {
+  border-bottom: 1px solid rgb(255, 230, 0);
+  transition: background-color 0.3s ease;
+}
+.all-home .home-product .list-product .list-product-title .china-food {
+  border-bottom: 1px solid rgb(255, 230, 0);
+  transition: background-color 0.3s ease;
+}
+.all-home .home-product .list-product .row.list-product-box {
+  text-align: center;
+  margin: 0;
+  display: flex;
+  padding: 3% 0 5% 0;
+}
+.all-home .home-product .list-product .row.list-product-box .col-sm-3.list-product-item {
+  padding: 10px;
+  margin: 0 !important;
+}
+.all-home .home-product .list-product .row.list-product-box .col-sm-3.list-product-item .list-product-item-img .list-product-image {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+}
+.all-home .home-product .list-product .row.list-product-box .col-sm-3.list-product-item .list-product-item-data {
+  background-color: white;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+  padding: 10px 0 20px 0;
+}
+.all-home .home-product .list-product .row.list-product-box .col-sm-3.list-product-item .list-product-item-data .list-product-item-title {
+  padding-top: 10px;
+  padding-left: 10px;
+  font-weight: bold;
+  display: flex;
+  align-items: flex-start;
+}
+.all-home .home-product .list-product .row.list-product-box .col-sm-3.list-product-item .list-product-item-data .list-product-item-star {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.all-home .home-product .list-product .row.list-product-box .col-sm-3.list-product-item .list-product-item-data .list-product-item-star .list-product-item-review {
+  display: flex;
+  padding-left: 10px;
+}
+.all-home .home-product .list-product .row.list-product-box .col-sm-3.list-product-item .list-product-item-data .list-product-item-star .list-product-item-review .list-product-item-review-icon {
+  width: 30px;
+  height: 30px;
+  margin: 3px;
+}
+.all-home .home-product .list-product .row.list-product-box .col-sm-3.list-product-item .list-product-item-data .list-product-item-star .list-product-item-price {
+  margin: 0;
+  padding-right: 10px;
+  font-weight: bold;
+}
+.all-home .home-product .list-product .row.list-product-box .col-sm-3.list-product-item .list-product-item-data .list-product-item-note {
+  color: rgb(100, 100, 100);
+  padding-left: 10px;
+  padding-top: 10px;
+  display: flex;
+  align-items: flex-start;
+}
+.all-home .home-ingredients {
+  padding-bottom: 10%;
+}
+.all-home .home-ingredients .home-ingredients-title {
+  padding-top: 60px;
+  color: rgb(255, 230, 0);
+  text-align: center;
+}
+.all-home .home-ingredients .home-ingredients-data-content {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+}
+.all-home .home-ingredients .home-ingredients-data-content .home-ingredients-content {
+  color: rgb(255, 230, 0);
+  text-align: center;
+}
+.all-home .home-ingredients .row.ingredients-image {
+  margin: 0;
+  display: flex;
+}
+@media (min-width: 1400px) {
+  .all-home .home-ingredients .col-sm-7.ingredients-item {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.all-home .discover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.479), rgba(0, 0, 0, 0.479)), url("https://res.cloudinary.com/dhjrrk4pg/image/upload/v1716683976/top-view-table-full-delicious-food-composition_1_m3vv8o.jpg");
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+.all-home .discover .discover-box {
+  width: 100%;
+}
+.all-home .discover .discover-box .discover-title {
+  text-align: center;
+  color: rgb(255, 230, 0);
+  font-weight: bold;
+}
+.all-home .discover .discover-box .discover-content {
+  color: rgb(255, 230, 0);
+  width: 40%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.all-home .client-review .client-review-title {
+  padding-top: 7%;
+  color: rgb(255, 230, 0);
+  font-weight: bold;
+  padding-left: 7%;
+}
+.all-home .client-review .client-review-content {
+  color: rgb(255, 230, 0);
+  width: 50%;
+  padding-left: 7%;
+  padding-top: 3%;
+}
+.all-home .client-review .row.client-review-data {
+  margin: 0;
+  justify-content: center;
+  padding: 4% 0;
+}
+.all-home .client-review .row.client-review-data .col-sm-3.client-review-data-box {
+  margin: 0 3%;
+  color: rgb(255, 230, 0);
+  background-color: rgb(68, 68, 68);
+}
+.all-home .client-review .row.client-review-data .col-sm-3.client-review-data-box .client-review-data-item {
+  display: flex;
+  padding: 20px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+.all-home .client-review .row.client-review-data .col-sm-3.client-review-data-box .client-review-data-item .client-review-data-item-title {
+  margin: 0;
+  font-weight: bold;
+}
+.all-home .client-review .row.client-review-data .col-sm-3.client-review-data-box .client-review-data-item .client-review-item-review .client-review-item-review-icon {
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+}
+.all-home .client-review .row.client-review-data .col-sm-3.client-review-data-box .client-review-data-item-end {
+  display: flex;
+  justify-content: space-between;
+}
+.all-home .client-review .row.client-review-data .col-sm-3.client-review-data-box .client-review-data-item-end .client-review-data-img {
+  width: 120px;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.all-home .store {
+  padding-top: 10%;
+  padding-bottom: 5%;
+}
+.all-home .store .row.store-box {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  color: rgb(255, 230, 0);
+}
+.all-home .store .row.store-box .col-sm-4.store-item {
+  margin: 5px 50px 5px 0px;
+  padding: 10px;
+}
+.all-home .store .row.store-box .col-sm-4.store-item .store-item-title {
+  padding: 10px 0;
+}
+.all-home .store .row.store-box .col-sm-4.store-item .store-item-btn {
+  margin-top: 30px;
+  padding: 10px 30px;
+  background-color: rgb(112, 112, 112);
+  border: 1px solid black;
+  color: rgb(255, 230, 0);
+}
+.all-home .store .row.store-box .col-sm-4.store-item2 {
+  height: 500px;
+}
+.all-home .store .row.store-box .col-sm-4.store-item2 .store-item2-box {
+  border: 1px solid rgb(255, 230, 0);
+  height: 350px;
+  display: flex;
+  width: 550px;
+  position: relative;
+}
+.all-home .store .row.store-box .col-sm-4.store-item2 .store-item2-box .store-item2-image {
+  margin-top: 50px;
+  margin-left: 50px;
+  height: 350px;
+  width: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.all-home .store .row.store-box .col-sm-4.store-item2 .store-item2-box .store-item2-image2 {
+  width: 190px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  top: 60%;
+  position: absolute;
+  left: 75%;
+}
+.all-home .home-contact-us .row.contact-us {
+  margin: 0;
+  color: rgb(255, 230, 0);
+  display: flex;
+  justify-content: center;
+  height: 500px;
+}
+.all-home .home-contact-us .row.contact-us .col-sm-4.contact-us-item {
+  padding: 30px;
+}
+.all-home .home-contact-us .row.contact-us .col-sm-4.contact-us-item .item-name {
+  padding: 10px 0;
+}
+.all-home .home-contact-us .row.contact-us .col-sm-4.contact-us-item .item-name .item-name-title {
+  font-weight: bold;
+}
+.all-home .home-contact-us .row.contact-us .col-sm-4.contact-us-item .item-name .item-name-content {
+  margin: 5px 0;
+  background-color: rgb(19, 5, 1);
+  border: 1px solid rgb(189, 189, 189);
+  padding: 5px;
+  border-radius: 5px;
+  width: 100%;
+}
+.all-home .home-contact-us .row.contact-us .col-sm-4.contact-us-item .item-phone-number {
+  padding-top: 20px;
+}
+.all-home .home-contact-us .row.contact-us .col-sm-4.contact-us-item .item-phone-number .item-phone-number-title {
+  font-weight: bold;
+}
+.all-home .home-contact-us .row.contact-us .col-sm-4.contact-us-item .item-phone-number .item-phone-number-content {
+  background-color: rgb(19, 5, 1);
+  border: 1px solid rgb(189, 189, 189);
+  padding: 5px;
+  border-radius: 5px;
+  width: 100%;
+  margin: 5px 0;
+}
+.all-home .home-contact-us .row.contact-us .col-sm-4.contact-us-item .item-message {
+  padding-top: 20px;
+}
+.all-home .home-contact-us .row.contact-us .col-sm-4.contact-us-item .item-message .item-message-title {
+  font-weight: bold;
+}
+.all-home .home-contact-us .row.contact-us .col-sm-4.contact-us-item .item-message .mess-sub {
+  display: flex;
+  border: 1px solid rgb(189, 189, 189);
+  border-radius: 5px;
+  position: relative;
+  height: 105px;
+}
+.all-home .home-contact-us .row.contact-us .col-sm-4.contact-us-item .item-message .mess-sub .item-message-content {
+  background-color: rgb(19, 5, 1);
+  border-radius: 5px;
+  width: 100%;
+  height: 100px;
+  border: none;
+  position: absolute;
+}
+.all-home .home-contact-us .row.contact-us .col-sm-4.contact-us-item .item-message .mess-sub .submit {
+  background-color: rgba(240, 248, 255, 0);
+  border: none;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 5px;
+  margin: 0;
+}
+.all-home .home-contact-us .row.contact-us .col-sm-4.contact-us-item .item-message .mess-sub .submit .img-send {
+  width: 30px;
+  height: 30px;
+}
+.all-home .home-contact-us .row.contact-us .col-sm-4.contact-us-item .access {
+  display: flex;
+  align-items: center;
+}
+.all-home .home-contact-us .row.contact-us .col-sm-4.contact-us-item .access .access-content {
+  margin: 0;
+  padding-left: 10px;
+  padding-top: 5px;
+  color: white;
+}
+.all-home .home-contact-us .row.contact-us .col-sm-4.contact-us-item-box2 {
+  margin-left: 5%;
+}
+.all-home .home-contact-us .row.contact-us .col-sm-4.contact-us-item-box2 .box2-title {
+  color: white;
+  padding: 50px 0 0 0;
+}
+.all-home .home-contact-us .row.contact-us .col-sm-4.contact-us-item-box2 .box2-title-data {
+  padding-top: 60px;
+}
+.all-home .home-contact-us .row.contact-us .col-sm-4.contact-us-item-box2 .box2-contact-us {
+  padding-top: 30px;
+}
+.all-home .home-contact-us .row.contact-us .col-sm-4.contact-us-item-box2 .box2-contact-us .box2-phone-content {
+  color: white;
+}
+.all-home .home-contact-us .row.contact-us .col-sm-4.contact-us-item-box2 .box2-contact-us .box2-email-content {
+  color: white;
+}
+.all-home .home-contact-us .row.contact-us .col-sm-4.contact-us-item-box2 .schedule {
+  padding: 10px 0;
+}
+.all-home .home-contact-us .row.contact-us .col-sm-4.contact-us-item-box2 .schedule .schedule-data {
+  color: white;
+}/*# sourceMappingURL=style.css.map */
