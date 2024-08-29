@@ -145,6 +145,27 @@
                     background-color: rgb(19, 5, 1);
                     color:rgb(255, 230, 0);
                     margin: 0 10px; 
+                    padding: 10px;
+                }
+                .europe-food{
+                    border-bottom: 1px solid rgb(255, 230, 0);
+                    transition: background-color 0.3s ease;
+                }
+                .vietnam-food{
+                    border-bottom: 1px solid rgb(255, 230, 0);
+                    transition: background-color 0.3s ease;
+                }
+                .korea-food{
+                    border-bottom: 1px solid rgb(255, 230, 0);
+                    transition: background-color 0.3s ease;
+                }
+                .japan-food{
+                    border-bottom: 1px solid rgb(255, 230, 0);
+                    transition: background-color 0.3s ease;
+                }
+                .china-food{
+                    border-bottom: 1px solid rgb(255, 230, 0);
+                    transition: background-color 0.3s ease;
                 }
             }
             .row.list-product-box{
