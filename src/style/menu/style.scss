@@ -1,0 +1,15 @@
+.menu-container{
+    width: 100%;
+    margin:0;
+    margin-top: 60px;
+    .menu.row{
+        width: 100%;
+        margin:0;
+        .menu.col-sm-2{
+            padding:0;
+        }
+        .menu.col-sm-10{
+            padding:0;
+        }
+    }
+}
