@@ -1,0 +1,38 @@
+.sp-container{
+        .sp-menu.row{
+            display:flex;
+            margin:0;
+            padding: 0 2%;
+            .sp-menu-item.col-sm-3{
+                padding:20px ;
+                border-radius: 20px;
+                .sp-image{
+                    width: 100%;
+                    height: 300px;
+                    object-fit: cover;
+                    border-radius: 20px;
+                }
+                .sp-menu-item-title{
+                    font-weight:bold;
+                    padding-top: 5px;
+                }
+                .list-product-item-star{
+                    display:flex;
+                    justify-content:space-between;
+                    align-items: center;
+                    .list-product-item-review{
+                        display:flex;
+                        padding-left: 10px;
+                        .list-product-item-review-icon{
+                            width:20px;
+                            height:20px;
+                            margin:3px;
+                        }
+                    }
+                    .list-product-item-price{
+                        margin:0;
+                    }
+                }
+            }
+        }
+    }
