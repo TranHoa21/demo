@@ -1,0 +1,8 @@
+// Các loại hành động (Action Types)
+export const LOGIN_SUCCESS = 'LOGIN_SUCCESS';
+export const LOGOUT = 'LOGOUT';
+export const SELECT_CONVERSATION = 'SELECT_CONVERSATION';
+export const SET_MESSAGES = 'SET_MESSAGES';
+export const TOGGLE_IS_SHOW_CHAT = 'TOGGLE_IS_SHOW_CHAT';
+export const TOGGLE_IS_SHOW_SIDEBAR = 'TOGGLE_IS_SHOW_SIDEBAR';
+export const SET_NOTIFICATION = 'SET_NOTIFICATION';

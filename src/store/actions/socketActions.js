@@ -1,0 +1,34 @@
+import io from "socket.io-client";
+
+// Hằng action types
+export const CONNECT_SOCKET = 'CONNECT_SOCKET';
+export const DISCONNECT_SOCKET = 'DISCONNECT_SOCKET';
+export const UPDATE_ONLINE_USERS = 'UPDATE_ONLINE_USERS';
+
+// Action creators
+export const connectSocket = (userId) => {
+    const socket = io("https://sever-production-702f.up.railway.app/", {
+        query: {
+            userId: userId,
+        },
+    });
+
+    return {
+        type: CONNECT_SOCKET,
+        payload: socket
+    };
+};
+
+export const disconnectSocket = () => {
+    return {
+        type: DISCONNECT_SOCKET
+    };
+};
+
+export const updateOnlineUsers = (users) => {
+    return {
+        type: UPDATE_ONLINE_USERS,
+        payload: users
+    };
+};
+
