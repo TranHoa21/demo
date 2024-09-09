@@ -32,6 +32,7 @@ const MenuItem = () => {
                 {chunkedData.map((chunk, index) => (
                     <div key={index} className="sp-menu row">
                         {chunk.map(item => (
+
                             <div key={item.id} className="sp-menu-item col-sm-3">
                                 <img className="sp-image" src={item.img} alt={item.name} />
                                 <h5 className="sp-menu-item-title">{item.name}</h5>
@@ -47,6 +48,7 @@ const MenuItem = () => {
 
                                 </div>
                             </div>
+
                         ))}
                     </div>
                 ))}
